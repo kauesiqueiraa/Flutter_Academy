@@ -20,8 +20,8 @@ const ListviewPage({ super.key });
           return ListTile(
             title: Text('Item $index'),
             subtitle: const Text('Flutter é TOP, junto do listView'),
-            leading: CircleAvatar(),
-            trailing: Icon(Icons.arrow_forward),
+            leading: const CircleAvatar(),
+            trailing: const Icon(Icons.arrow_forward),
           );
         }
       )
