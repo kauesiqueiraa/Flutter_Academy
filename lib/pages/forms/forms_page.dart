@@ -40,17 +40,17 @@ class _FormsPageState extends State<FormsPage> {
                       labelText: 'Nome Completo',
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30.0),
-                        borderSide: BorderSide(color: Colors.amber),
+                        borderSide: const BorderSide(color: Colors.amber),
                       ),
                       focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30.0),
-                        borderSide: BorderSide(color: Colors.amber),
+                        borderSide: const BorderSide(color: Colors.amber),
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30.0),
-                        borderSide: BorderSide(color: Colors.amber),
+                        borderSide: const BorderSide(color: Colors.amber),
                       ),
-                      labelStyle: TextStyle(color: Colors.green, fontSize: 20),
+                      labelStyle: const TextStyle(color: Colors.green, fontSize: 20),
                       isDense: true),
                   validator: (String? value) {
                     if (value == null || value.isEmpty) {
